@@ -10,9 +10,7 @@ const MailboxDetails = ({ mailboxes }) => {
     return mailbox.mailboxId === Number(mailboxId);
   });
 
-//   if (!selectedBox) {
-//     return <h2>Mailbox not found</h2>;
-//   }
+
 
   return (
     <>

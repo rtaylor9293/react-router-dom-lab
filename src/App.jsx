@@ -13,7 +13,6 @@ function App() {
   const addBox = (newMailbox) => {
     newMailbox.mailboxId = mailboxes.length + 1;
     setMailboxes([ ...mailboxes, newMailbox ])
-    // console.log(newMailbox)
   }
 
   return (
